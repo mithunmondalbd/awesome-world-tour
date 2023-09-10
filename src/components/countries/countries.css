@@ -1,0 +1,22 @@
+.counties-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.visited{
+    background-color: bisque;
+    
+}
+.not-visited{
+    background-color: aqua;
+    
+}
+.flag-container img{
+    width: 100px;
+    height: 40px;
+    border-right: 4px solid tomato;
+    padding: 15px;
+}
